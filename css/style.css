@@ -27,6 +27,9 @@ body {
   cursor: pointer;
   font-style: normal;
 }
+.buttons-list {
+  list-style-type: none;
+}
 
 .main-button {
   background: var(--hover-color);
@@ -45,6 +48,9 @@ body {
   text-decoration: none;
   font-style: normal;
   color: var(--main-text-color);
+}
+.navigation-menu {
+  list-style-type: none;
 }
 .navigation-link:hover {
   color: var(--hover-color);
@@ -76,6 +82,12 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.contact-footer:hover {
+  color: var(--hover-color);
+}
+.contact-footer:focus {
+  color: var(--hover-color);
+}
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -84,6 +96,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--negative-text-color);
+}
+.list-one {
+  list-style-type: none;
 }
 .list-one p {
   color: var(--second-text-color);
@@ -164,4 +179,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.graphic-list {
+  list-style-type: none;
 }
