@@ -25,7 +25,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  font-style: normal;
 }
 .buttons-list {
   list-style-type: none;
@@ -46,7 +45,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
   color: var(--main-text-color);
 }
 .navigation-menu {
@@ -65,7 +63,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
 
   color: var(--second-text-color);
 }
@@ -143,7 +140,6 @@ body {
 
 .main-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -156,7 +152,6 @@ body {
 }
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -182,4 +177,10 @@ body {
 }
 .graphic-list {
   list-style-type: none;
+}
+.agency-section-one {
+  background: #2f303a;
+}
+.footer-section {
+  background: #2f303a;
 }
